@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x469970" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xa057cf0" />
+  <item nodeId="node-0x469970">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+A funeral without a body
+An Interactive Fiction by Phillip Tanton
+Release 1 / Serial number 141014 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+1st floor of Hospital
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">NO</temporary>
+    <children>
+      <child nodeId="node-0x7672770" />
+      <child nodeId="node-0x760fee0" />
+      <child nodeId="node-0x214410" />
+    </children>
+  </item>
+  <item nodeId="node-0x214410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7612220" />
+    </children>
+  </item>
+  <item nodeId="node-0x7612220">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bank
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x3c2750" />
+    </children>
+  </item>
+  <item nodeId="node-0x3c2750">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main road
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x76ec820" />
+    </children>
+  </item>
+  <item nodeId="node-0x76ec820">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+shop
+You can see circular saw here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0xa057cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa057cf0">
+    <command xml:space="preserve">turn on circular saw</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+  </item>
+  <item nodeId="node-0x760fee0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xa06a520" />
+      <child nodeId="node-0x76df1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x76df1a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Funeral House
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xa079ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa079ac0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x768e430" />
+    </children>
+  </item>
+  <item nodeId="node-0x768e430">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x768d930" />
+    </children>
+  </item>
+  <item nodeId="node-0x768d930">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+1st floor of Hospital
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x76266a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x76266a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bank
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x76c79d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x76c79d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main road
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9507a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9507a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+shop
+You can see circular saw here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xb93e0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb93e0d0">
+    <command xml:space="preserve">turn on circular saw</command>
+    <result xml:space="preserve">You switch circular saw on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0xa06a520">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x76d13f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x76d13f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x49ee40" />
+    </children>
+  </item>
+  <item nodeId="node-0x49ee40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Funeral House
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x7672770">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+2nd Floor of Hospital
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x766f040" />
+    </children>
+  </item>
+  <item nodeId="node-0x766f040">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+1st floor of Hospital
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>
