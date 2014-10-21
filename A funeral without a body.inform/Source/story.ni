@@ -108,3 +108,15 @@ coffin+corpse is an object. The description of coffin+corpse is "Clamp and Spatu
 clothed+corpse is an object. The description of clothed+corpse is "Clamp and Pair of Tongs… Need anything else?".
 coffin+clothes is an object. The description of coffin+clothes is "Spatula and Pair of Tongs… Need anything else?".
 full casket is an object. The description of the full casket is "A nice coffin with a clothed body.".
+
+[From a day for spelling]
+[Code to display a players location in the game and possible exits in the header.]
+When play begins:
+now left hand status line is "Exits: [exit list] ";
+now right hand status line is "[location]".
+
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say "[way]".

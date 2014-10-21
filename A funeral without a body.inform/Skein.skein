@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0xa0a0150" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x13152b80" />
+  <activeNode nodeId="node-0x1313b7e0" />
   <item nodeId="node-0xa0a0150">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -19,7 +19,7 @@ You can see a Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="238">NO</temporary>
+    <temporary score="243">NO</temporary>
     <children>
       <child nodeId="node-0xa0aec60" />
       <child nodeId="node-0x306650" />
@@ -180,13 +180,61 @@ You can see corpse here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="238">YES</temporary>
+    <temporary score="243">YES</temporary>
     <children>
       <child nodeId="node-0x20dac0" />
       <child nodeId="node-0xeaa2d10" />
       <child nodeId="node-0x2f5180" />
       <child nodeId="node-0x14881650" />
+      <child nodeId="node-0xea101e0" />
     </children>
+  </item>
+  <item nodeId="node-0xea101e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="243">YES</temporary>
+    <children>
+      <child nodeId="node-0x1315bdb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1315bdb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main road
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="243">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1f5730" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1f5730">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="243">YES</temporary>
+    <children>
+      <child nodeId="node-0x1313b7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1313b7e0">
+    <command xml:space="preserve">e</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="242">YES</temporary>
   </item>
   <item nodeId="node-0x14881650">
     <command xml:space="preserve">get corpse</command>
@@ -674,8 +722,9 @@ You now have a coffin+corpse.
   </item>
   <item nodeId="node-0x13152b80">
     <command xml:space="preserve">combine coffin+corpse with clothes</command>
-    <result xml:space="preserve">You can&apos;t combine coffin+corpse and clothes into anything useful.
-Try another combination of things.
+    <result xml:space="preserve">You fuse together coffin+corpse and clothes.
+
+You now have a full casket.
 
 &gt;</result>
     <played>YES</played>
