@@ -27,6 +27,16 @@ circular saw is in shop.
 [instead of putting plank inside circular saw:
 	say "The saw groans and mubles as the plank goes through it" 
 	give cut plank to player]
+[From great glorious leader Jonathon Nakagawa "the Great"]
+
+[From handbook]
+Talking to is an action applying to one visible thing.
+
+Understand "talk to [someone]" or “converse with [someone]” as talking to.
+Check talking to: say "[The noun] doesn't reply."
+
+Instead of talking to banker:
+	say "[bracket]1[close bracket] hello";
 
 the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
 The table is in the funeral house.
@@ -38,6 +48,9 @@ The block giving rule is not listed in the check giving it to rules.
 [from documentation.]
 
 [Understand "talk to" as ask about .]
+
+[from cole:disable take all]
+Rule for deciding whether all includes something: it does not.
 [Taken from Tonic by Brianna hartner.]
 Clamp is a thing. Clamp is in notwhere.
 Spatula is a thing. Spatula is in notwhere.
