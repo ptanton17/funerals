@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0xa0a0150" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xa0a0150" />
+  <activeNode nodeId="node-0x13152b80" />
   <item nodeId="node-0xa0a0150">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -19,7 +19,7 @@ You can see a Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="83">NO</temporary>
+    <temporary score="238">NO</temporary>
     <children>
       <child nodeId="node-0xa0aec60" />
       <child nodeId="node-0x306650" />
@@ -175,29 +175,56 @@ You can see circular saw here.
 1st floor of Hospital
 What is the waiting room should be called the emergancy room. It is usually bustling with people but today it is earily quiet.
 
+You can see corpse here.
+
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="83">YES</temporary>
+    <temporary score="238">YES</temporary>
     <children>
       <child nodeId="node-0x20dac0" />
-      <child nodeId="node-0x2f5180" />
       <child nodeId="node-0xeaa2d10" />
+      <child nodeId="node-0x2f5180" />
+      <child nodeId="node-0x14881650" />
     </children>
   </item>
-  <item nodeId="node-0xeaa2d10">
+  <item nodeId="node-0x14881650">
+    <command xml:space="preserve">get corpse</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1e7490" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1e7490">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd130360" />
+    </children>
+  </item>
+  <item nodeId="node-0xd130360">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="83">YES</temporary>
+    <temporary score="238">YES</temporary>
     <children>
-      <child nodeId="node-0xea65e30" />
+      <child nodeId="node-0x12aba270" />
     </children>
   </item>
-  <item nodeId="node-0xea65e30">
+  <item nodeId="node-0x12aba270">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bank
@@ -206,30 +233,454 @@ You can see Banker here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="83">YES</temporary>
+    <temporary score="238">YES</temporary>
     <children>
-      <child nodeId="node-0xeaa0be0" />
+      <child nodeId="node-0xd12fd60" />
     </children>
   </item>
-  <item nodeId="node-0xeaa0be0">
-    <command xml:space="preserve">talk to banker</command>
-    <result xml:space="preserve">[1] hello
+  <item nodeId="node-0xd12fd60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="83">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
     <children>
-      <child nodeId="node-0xea28ce0" />
+      <child nodeId="node-0xea05d70" />
     </children>
   </item>
-  <item nodeId="node-0xea28ce0">
-    <command xml:space="preserve">1</command>
+  <item nodeId="node-0xea05d70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd107060" />
+    </children>
+  </item>
+  <item nodeId="node-0xd107060">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ab9270" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ab9270">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd10fee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd10fee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x12ad4cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12ad4cc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x12a01030" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a01030">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xea0e5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xea0e5b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x12a11d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x12a11d50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xea004e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xea004e0">
+    <command xml:space="preserve">c</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x13136710" />
+    </children>
+  </item>
+  <item nodeId="node-0x13136710">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x1483cf90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1483cf90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x15739b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x15739b00">
+    <command xml:space="preserve">take coffin</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x15739d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x15739d10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x1574a000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1574a000">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1ee390" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1ee390">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd12a300" />
+    </children>
+  </item>
+  <item nodeId="node-0xd12a300">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x1573a000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1573a000">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaf8170" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaf8170">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x13143d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x13143d90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x1313d130" />
+    </children>
+  </item>
+  <item nodeId="node-0x1313d130">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  corpse
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x1314c520" />
+    </children>
+  </item>
+  <item nodeId="node-0x1314c520">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x131397f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x131397f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main road
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x13141600" />
+    </children>
+  </item>
+  <item nodeId="node-0x13141600">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+shop
+You can see circular saw (empty) and Coffin here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x13133f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x13133f60">
+    <command xml:space="preserve">take coffin</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1e6250" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1e6250">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main road
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd1e3990" />
+    </children>
+  </item>
+  <item nodeId="node-0xd1e3990">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x13148f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x13148f00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tailor
+You can see clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xea02160" />
+    </children>
+  </item>
+  <item nodeId="node-0xea02160">
+    <command xml:space="preserve">take clothes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x157522e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x157522e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  clothes
+  Coffin
+  corpse
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x1313cfc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1313cfc0">
+    <command xml:space="preserve">combine</command>
+    <result xml:space="preserve">What do you want to combine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xd123480" />
+    </children>
+  </item>
+  <item nodeId="node-0xd123480">
+    <command xml:space="preserve">corpse and coffin</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x15736ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15736ff0">
+    <command xml:space="preserve">combine coffin with corpse</command>
+    <result xml:space="preserve">You fuse together Coffin and corpse.
+
+You now have a coffin+corpse.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x13152b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x13152b80">
+    <command xml:space="preserve">combine coffin+corpse with clothes</command>
+    <result xml:space="preserve">You can&apos;t combine coffin+corpse and clothes into anything useful.
+Try another combination of things.
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="82">YES</temporary>
+    <temporary score="237">YES</temporary>
   </item>
   <item nodeId="node-0x2f5180">
     <command xml:space="preserve">s</command>
@@ -493,6 +944,52 @@ You can see circular saw here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0xeaa2d10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xea65e30" />
+    </children>
+  </item>
+  <item nodeId="node-0xea65e30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bank
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xeaa0be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeaa0be0">
+    <command xml:space="preserve">talk to banker</command>
+    <result xml:space="preserve">[1] hello
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xea28ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xea28ce0">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
   </item>
   <item nodeId="node-0x20dac0">
     <command xml:space="preserve">w</command>

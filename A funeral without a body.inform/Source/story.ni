@@ -18,7 +18,7 @@ shop is east of lumber yard.
 funeral house is south of hospital.
 graveyard is south of funeral house.
 bank is east of hospital. 
-
+tailor is east of bank.
 cut plank is a thing. cut plank is in notwhere.
 
 rough plank is a thing. rough plank is in lumber yard. 
@@ -51,10 +51,13 @@ The block giving rule is not listed in the check giving it to rules.
 
 [from cole:disable take all]
 Rule for deciding whether all includes something: it does not.
+
+
+
 [Taken from Tonic by Brianna hartner.]
-Clamp is a thing. Clamp is in notwhere.
-Spatula is a thing. Spatula is in notwhere.
-Tongs is a thing. Tongs is in notwhere.
+Coffin is a thing. coffin is in shop.
+corpse is a thing. corpse is in hospital.
+clothes is a thing. clothes is in Tailor.
 
 [The combining action]
 Understand "combine [something] with [something]" as combining it with.
@@ -93,15 +96,15 @@ Report combining it with:
 
 Table of Arm Parts
 Parts List    			Results
-{Clamp, Spatula}            			Clamp Spatula Thingy
-{Clamp, Tongs}              			Clamp Tong Thingy
-{Spatula, Tongs}             			Spatula Tong Thingy
-{Clamp Spatula Thingy, Tongs}			Arm Thingy
-{Clamp Tong Thingy, Spatula}       			Arm Thingy
-{Spatula Tong Thingy, Clamp}       			Arm Thingy
-{Clamp, Spatula, Tongs}                			Arm Thingy
+{coffin, corpse}            			coffin+corpse
+{coffin, clothes}              			coffin+clothes
+{corpse, clothes}             			clothed+corpse
+{coffin+clothes, corpse}       			full casket
+{clothed+corpse, coffin}       			full casket
+{coffin+corpse, clothes}			full casket
+{coffin, corpse, clothes}                			full casket
 
-The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thingy is "Clamp and Spatula… Need anything else?"
-The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
-The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
-Arm Thingy is an object. The description of the Arm Thingy is "A nice coffin.".
+coffin+corpse is an object. The description of coffin+corpse is "Clamp and Spatula… Need anything else?".
+clothed+corpse is an object. The description of clothed+corpse is "Clamp and Pair of Tongs… Need anything else?".
+coffin+clothes is an object. The description of coffin+clothes is "Spatula and Pair of Tongs… Need anything else?".
+full casket is an object. The description of the full casket is "A nice coffin with a clothed body.".
