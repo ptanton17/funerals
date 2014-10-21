@@ -9,20 +9,68 @@
 
 A funeral without a body
 An Interactive Fiction by Phillip Tanton
-Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141020 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-1st floor of Hospital
+Funeral House
+This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty carpet on the bottom.
+
+You can see a Table here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="69">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="73">NO</temporary>
     <children>
       <child nodeId="node-0xa066f50" />
       <child nodeId="node-0xa0b5690" />
       <child nodeId="node-0x1039a190" />
       <child nodeId="node-0xa0aec60" />
+      <child nodeId="node-0x1037e710" />
+      <child nodeId="node-0xfdc6490" />
     </children>
+  </item>
+  <item nodeId="node-0xfdc6490">
+    <command xml:space="preserve">sit on table</command>
+    <result xml:space="preserve">That&apos;s not something you can sit down on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+  </item>
+  <item nodeId="node-0x1037e710">
+    <command xml:space="preserve">sit at table</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0xfdd9770" />
+    </children>
+  </item>
+  <item nodeId="node-0xfdd9770">
+    <command xml:space="preserve">sit on table</command>
+    <result xml:space="preserve">That&apos;s not something you can sit down on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x103dcce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x103dcce0">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">(on the Table)
+That&apos;s not something you can sit down on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
   </item>
   <item nodeId="node-0xa0aec60">
     <command xml:space="preserve">up</command>

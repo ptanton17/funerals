@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>5ADB68F7-00DD-4526-A85A-D32948158493</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>A funeral without a body</title>
+            <author>Phillip Tanton 'A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent ir yet and the funeral is tomarrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body.'</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2014</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2014-10-20</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6L38</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6L38</generatorversion>
+            <originated>2014-10-20</originated>
+        </colophon>
+        <glulx>
+            <serial>141020</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6L38</compiler>
+        </glulx>
+    </story>
+</ifindex>

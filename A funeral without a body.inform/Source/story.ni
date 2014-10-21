@@ -1,8 +1,8 @@
 "A funeral without a body" by Phillip Tanton
-
-1st floor of Hospital is a room.
-Funeral House is a room.
-Graveyard is a room.
+"A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent ir yet and the funeral is tomarrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body.".
+Funeral House is a room."This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty carpet on the bottom.".
+1st floor of Hospital is a room. "What is the waiting room should be called the emergancy room. It is usually bustling with people but today it is earily quiet.".
+Graveyard is a room."It's a graveyard, what do you expect. A haunted house".
 Bank is a room. 
 Tailor is a room.
 Workshop is a room.
@@ -17,7 +17,7 @@ main road is south of shop.
 shop is east of lumber yard.
 funeral house is south of hospital.
 graveyard is south of funeral house.
-bank is east of hospital.
+bank is east of hospital. 
 
 cut plank is a thing. cut plank is in notwhere.
 
@@ -26,16 +26,23 @@ circular saw is a container.
 circular saw is in shop. 
 [instead of putting plank inside circular saw:
 	say "The saw groans and mubles as the plank goes through it" 
-	give cut plank to player
-]
+	give cut plank to player]
+
+the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
+The table is in the funeral house.
+[Understand "sit at [something]" as sit on.]
+
 Banker is a man.
 Banker is in bank.
+The block giving rule is not listed in the check giving it to rules.
+[from documentation.]
 
 [Understand "talk to" as ask about .]
+[Taken from Tonic by Brianna hartner.]
+Clamp is a thing. Clamp is in notwhere.
+Spatula is a thing. Spatula is in notwhere.
+Tongs is a thing. Tongs is in notwhere.
 
-Clamp is a thing.
-Spatula is a thing.
-Tongs is a thing.
 [The combining action]
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
@@ -76,11 +83,12 @@ Parts List    			Results
 {Clamp, Spatula}            			Clamp Spatula Thingy
 {Clamp, Tongs}              			Clamp Tong Thingy
 {Spatula, Tongs}             			Spatula Tong Thingy
-{Clamp Spatula Thingy, Tongs}     Arm Thingy
-{Clamp Tong Thingy, Spatula}      Arm Thingy
-{Spatula Tong Thingy, Clamp}      Arm Thingy
-{Clamp, Spatula, Tongs}               Arm Thingy
+{Clamp Spatula Thingy, Tongs}			Arm Thingy
+{Clamp Tong Thingy, Spatula}       			Arm Thingy
+{Spatula Tong Thingy, Clamp}       			Arm Thingy
+{Clamp, Spatula, Tongs}                			Arm Thingy
 
 The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thingy is "Clamp and Spatula… Need anything else?"
 The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
 The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
+Arm Thingy is an object. The description of the Arm Thingy is "A nice coffin.".
