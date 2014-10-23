@@ -52,9 +52,28 @@ The block giving rule is not listed in the check giving it to rules.
 [from cole:disable take all]
 Rule for deciding whether all includes something: it does not.
 
+[Setting up talking: Taken from A Day For Spelling by Mary Kiang]
+
+Talking to is an action applying to one visible thing.
+Understand "talk to [someone]" or “converse with
+[someone]” as talking to.
+Check talking to: say "[The noun] doesn't reply."
+[end Setting up talking: Taken from A Day For Spelling by Mary Kiang]
+
+[Code for snide remark after take all from A Day for Spelling by Mary Kiang from cdamon17]
+Rule for printing a parser error when the latest parser error is the nothing to do error: say "That would make things to easy, try to have some fun :)" instead.
+[end Code for snide remark after take all from A Day for Spelling by Mary Kiang from cdamon17]
+
+[going nowhere code from Day for Spelling - Mr. Kiang from bbrown17]
+[this alerts player that they're going the wrong way]
+Instead of going nowhere, say "Not every direction holds something of value. Go in another direction."
+[end going nowhere code from Day for Spelling - Mr. Kiang from bbrown17]
 
 
-[Taken from Tonic by Brianna hartner.]
+
+
+
+[Combining puzzle: Taken from Tonic by Brianna hartner.]
 Coffin is a thing. coffin is in shop.
 corpse is a thing. corpse is in hospital.
 clothes is a thing. clothes is in Tailor.
@@ -108,7 +127,7 @@ coffin+corpse is an object. The description of coffin+corpse is "Clamp and Spatu
 clothed+corpse is an object. The description of clothed+corpse is "Clamp and Pair of Tongs… Need anything else?".
 coffin+clothes is an object. The description of coffin+clothes is "Spatula and Pair of Tongs… Need anything else?".
 full casket is an object. The description of the full casket is "A nice coffin with a clothed body.".
-
+[end combining puzzle]
 [From a day for spelling]
 [Code to display a players location in the game and possible exits in the header.]
 When play begins:
@@ -120,3 +139,5 @@ To say exit list:
 	repeat with way running through directions:
 		let place be the room way from the location;
 		if place is a room, say "[way]".
+[end Code to display a players location in the game and possible exits in the header.]
+
