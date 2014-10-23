@@ -4,7 +4,7 @@ Funeral House is a room."This is where all the magic happens (so to speak). In r
 1st floor of Hospital is a room. "What is the waiting room should be called the emergancy room. It is usually bustling with people but today it is earily quiet.".
 Graveyard is a room."It's a graveyard, what do you expect. A haunted house".
 Bank is a room. 
-Tailor is a room.
+clothing emporium is a room.
 Workshop is a room.
 Lumber yard is a room.
 Main road is a room.
@@ -18,7 +18,7 @@ shop is east of lumber yard.
 funeral house is south of hospital.
 graveyard is south of funeral house.
 bank is east of hospital. 
-tailor is east of bank.
+clothing emporium is east of bank.
 cut plank is a thing. cut plank is in notwhere.
 
 rough plank is a thing. rough plank is in lumber yard. 
@@ -29,14 +29,6 @@ circular saw is in shop.
 	give cut plank to player]
 [From great glorious leader Jonathon Nakagawa "the Great"]
 
-[From handbook]
-Talking to is an action applying to one visible thing.
-
-Understand "talk to [someone]" or “converse with [someone]” as talking to.
-Check talking to: say "[The noun] doesn't reply."
-
-Instead of talking to banker:
-	say "[bracket]1[close bracket] hello";
 
 the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
 The table is in the funeral house.
@@ -47,7 +39,6 @@ Banker is in bank.
 The block giving rule is not listed in the check giving it to rules.
 [from documentation.]
 
-[Understand "talk to" as ask about .]
 
 [from cole:disable take all]
 Rule for deciding whether all includes something: it does not.
@@ -76,7 +67,7 @@ Instead of going nowhere, say "Not every direction holds something of value. Go 
 [Combining puzzle: Taken from Tonic by Brianna hartner.]
 Coffin is a thing. coffin is in shop.
 corpse is a thing. corpse is in hospital.
-clothes is a thing. clothes is in Tailor.
+clothes is a thing. clothes is in clothing emporium.
 
 [The combining action]
 Understand "combine [something] with [something]" as combining it with.
@@ -140,4 +131,22 @@ To say exit list:
 		let place be the room way from the location;
 		if place is a room, say "[way]".
 [end Code to display a players location in the game and possible exits in the header.]
+
+[i will put in items!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]
+Bed is a supporter.
+table is a supporter.
+counter is a thing.
+Tailor is a woman.
+pedestal is a supporter.
+flower is a thing.
+chair is a thing.
+moon is a thing.
+carpet is a thing.
+headstone is a thing.
+wrench is a thing.
+bandaids is a thing.
+saw is a thing.
+
+
+
 
