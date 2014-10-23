@@ -5,7 +5,7 @@ Funeral House is a room."This is where all the magic happens (so to speak). In r
 Graveyard is a room."It's a graveyard, what do you expect? A haunted house...".
 Bank is a room. "The safest place in the town. Where else would you keep your money.".
 clothing emporium is a room."Some very nice clothes are made here.".
-Workshop is a room. "I think that a coffin could be made here farily easy. There is a circular saw in the room.".
+shop is a room. "I think that a coffin could be made here farily easy. There is a circular saw in the room.".
 Lumber yard is a room. "What else could it be. There is a hand saw in the room."
 Main road is a room."a mostly abandoned road with one parked car on the left side of the road.".
 2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing.".
@@ -21,7 +21,7 @@ bank is east of hospital.
 clothing emporium is east of bank.
 cut plank is a thing. cut plank is in notwhere.
 
-rough plank is a thing. rough plank is in lumber yard. 
+
 circular saw is a container.
 circular saw is in shop. 
 [instead of putting plank inside circular saw:
@@ -30,10 +30,12 @@ circular saw is in shop.
 [From great glorious leader Jonathon Nakagawa "the Great"]
 
 
-
+wad of cash is a thing.
 Banker is a man.
 Banker is in bank.
 The block giving rule is not listed in the check giving it to rules.
+Instead of talking to banker for the first time: say "Ah, yes here is your money"; move wad of cash to player;
+
 [from documentation.]
 
 
@@ -56,7 +58,8 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 [this alerts player that they're going the wrong way]
 Instead of going nowhere, say "Not every direction holds something of value. Go in another direction.".
 [end going nowhere code from Day for Spelling - Mr. Kiang from bbrown17]
-if player enters bank for the first time: say ""
+
+[player enters bank for the first time: say ""]
 
 
 
@@ -64,7 +67,7 @@ if player enters bank for the first time: say ""
 [Combining puzzle: Taken from Tonic by Brianna hartner.]
 Coffin is a thing. coffin is in shop.
 corpse is a thing. corpse is in hospital.
-clothes is a thing. clothes is in clothing emporium.
+clothes is a thing. clothes is in notwhere.
 
 [The combining action]
 Understand "combine [something] with [something]" as combining it with.
@@ -111,9 +114,9 @@ Parts List    			Results
 {coffin+corpse, clothes}			full casket
 {coffin, corpse, clothes}                			full casket
 
-coffin+corpse is an object. The description of coffin+corpse is "Clamp and Spatula… Need anything else?".
-clothed+corpse is an object. The description of clothed+corpse is "Clamp and Pair of Tongs… Need anything else?".
-coffin+clothes is an object. The description of coffin+clothes is "Spatula and Pair of Tongs… Need anything else?".
+coffin+corpse is an object. The description of coffin+corpse is "coffin and a corpse… Need anything else?".
+clothed+corpse is an object. The description of clothed+corpse is "clothes on a corpse… Need anything else?".
+coffin+clothes is an object. The description of coffin+clothes is "coffin with clothes… Need anything else?".
 full casket is an object. The description of the full casket is "A nice coffin with a clothed body.".
 [end combining puzzle]
 [From a day for spelling]
@@ -132,7 +135,14 @@ To say exit list:
 [i will put in items!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]
 Bed is a supporter. Bed is in 2nd floor of hospital. The description of bed is "A white sanitary bed used in hospitals.".
 counter is a thing. counter is in bank. it is undescribed. "a pollished granite counter. useful for sliding papers across or dropping bouncy balls. Guess what this banker does?".
-Tailor is a woman. Tailor is in clothing emporium. it is undescribed. "an old lady. Probably a bit stiff but she still produces the finest quality handmade tuxidos in town. ".
+Tailor is a woman. Tailor is in clothing emporium. it is undescribed. "an old lady. Probably a bit stiff in the fingers but she still produces the finest quality handmade tuxidos in town. ".
+instead of talking to tailor:
+	If player has wad of cash:
+		move clothes to player;
+		say "I will make some clothes for you right away.";
+	Otherwise:
+		say "I don't make suits for free. Come back with more money please.".
+	
 pedestal is a supporter. Pedestal is in clothing emporium. it is undescribed."A small pedestal used for standing on for measuring.".
 flower is a thing. flower is in bank. it is undescribed. "A little flower in a flower pot. ".
 chair is a thing. chair is in bank. it is undescribed. "This is where you sell your soul to the devil... or your local banker." .
@@ -140,7 +150,7 @@ moon is a thing. it is undescribed. "A lumenesciant moon.".
 carpet is a thing. carpet is in  first floor of hospital. it is undescribed. "A carpet made for heavy foot traffic, biological substances (blood and vomit), and strong chemicals.".
 headstone is a thing. headstone is in graveyard. it is undescribed. "Jonathan Nakagawa, 6/7/99-7/6/2014".
 wrench is a thing. wrench is in workshop. it is undescribed. "I don't know what you are going to do with a wrench but take it if you want.".
-drawer is a container. drawer is in first floor of hospital. it is undescribed. "A drawere used to hold basic medical supplies.".
+drawer is a container. drawer is in first floor of hospital. it is undescribed. "A drawer used to hold basic medical supplies.".
 bandaids is a thing. bandaids is in drawer. it is undescribed. "Some bandaids.".
 hand saw is a thing. hand saw is in lumberyard. it is undescribed. "A simple handsaw for cutting up wood.".
 car is a container. it is locked and lockable. it is closed and openable. It is in main road. "A parked car.".
@@ -149,3 +159,14 @@ the Table is a thing.  The table is a supporter. The description of table is "A 
 The table is in the funeral house. the table is undescribed.
 [Understand "sit at [something]" as sit on.]
 
+Worker is a man. Worker is in shop. "A strong little man hwo is a fine woodworker.".
+instead of talking to worker for the first time: say " Do you want a coffin because i can build one.".
+rough plank is a thing. It is in the lumber yard.
+instead of talking to worker:
+	If player has wad of cash:
+		if player has rough plank:
+			move coffin to player;
+			say "I will make a coffin for you right away.";
+			move rough plank to notwhere;
+		Otherwise:
+			say "I can't make coffins without wood. Unless you want an invisible coffin.".

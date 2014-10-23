@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x421850" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x421850" />
+  <activeNode nodeId="node-0xd201790" />
   <item nodeId="node-0x421850">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 A funeral without a body
-An Interactive Fiction by Phillip Tanton &quot;A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven&apos;t sent ir yet and the funeral is tomarrow. So, as the director of the house you must bring everything together and hope they don&apos;t ask to see the body.&quot;
+An Interactive Fiction by Phillip Tanton &quot;A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven&apos;t sent it yet and the funeral is tomarow. So, as the director of the house you must bring everything together and hope they don&apos;t ask to see the body. In this case everything is a body, some nice clothes and a coffin.&quot;
 Release 1 / Serial number 141022 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Funeral House
-This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty carpet on the bottom.
+This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="243">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="77">NO</temporary>
     <children>
       <child nodeId="node-0xa4b7be0" />
       <child nodeId="node-0xa4b7b70" />
@@ -178,7 +178,7 @@ You can see corpse here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="243">YES</temporary>
+    <temporary score="77">YES</temporary>
     <children>
       <child nodeId="node-0xa4b75c0" />
       <child nodeId="node-0xa4b7400" />
@@ -191,15 +191,241 @@ You can see corpse here.
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bank
+The safest place in the town. Where else would you keep your money.
+
 You can see Banker here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="243">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
     <children>
       <child nodeId="node-0xa4b5980" />
+      <child nodeId="node-0xa5ac9c0" />
     </children>
+  </item>
+  <item nodeId="node-0xa5ac9c0">
+    <command xml:space="preserve">talk to banker</command>
+    <result xml:space="preserve">Ah, yes here is your money
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x405260" />
+      <child nodeId="node-0xf9577d0" />
+      <child nodeId="node-0xf958c10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf958c10">
+    <command xml:space="preserve">talk to banker</command>
+    <result xml:space="preserve">Banker doesn&apos;t reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0xf9577d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main road
+a mostly abandoned road with one parked car on the left side of the road.
+
+A parked car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x114a27e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114a27e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+shop
+I think that a coffin could be made here farily easy. There is a circular saw in the room.
+
+A strong little man hwo is a fine woodworker.
+
+You can also see circular saw (empty) and Coffin here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x114ba2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114ba2c0">
+    <command xml:space="preserve">talk to worker</command>
+    <result xml:space="preserve"> Do you want a coffin because i can build one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x114c6ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114c6ab0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Not every direction holds something of value. Go in another direction.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x11380260" />
+    </children>
+  </item>
+  <item nodeId="node-0x11380260">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x114e2ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114e2ce0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lumber yard
+What else could it be. There is a hand saw in the room.
+
+You can see rough plank here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0xd24e4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd24e4b0">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">That would make things to easy, try to have some fun :)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0xa525f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa525f70">
+    <command xml:space="preserve">get plank</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x114e34c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x114e34c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+shop
+I think that a coffin could be made here farily easy. There is a circular saw in the room.
+
+A strong little man hwo is a fine woodworker.
+
+You can also see circular saw (empty) and Coffin here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0xa53eb20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa53eb20">
+    <command xml:space="preserve">talk to worker</command>
+    <result xml:space="preserve">I will make a coffin for you right away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0xd201790" />
+    </children>
+  </item>
+  <item nodeId="node-0xd201790">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Coffin
+  rough plank
+  wad of cash
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+  </item>
+  <item nodeId="node-0x405260">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  wad of cash
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xa4cd5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa4cd5f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+clothing emporium
+Some very nice clothes are made here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xd21c3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd21c3e0">
+    <command xml:space="preserve">talk to tailor</command>
+    <result xml:space="preserve">I will make some clothes for you right away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5d2290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5d2290">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  clothes
+  wad of cash
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="23">YES</temporary>
   </item>
   <item nodeId="node-0xa4b5980">
     <command xml:space="preserve">n</command>
@@ -1040,15 +1266,53 @@ You can see Banker here.
   </item>
   <item nodeId="node-0xa4b75c0">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+    <result xml:space="preserve">Not every direction holds something of value. Go in another direction.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="6">YES</temporary>
     <children>
       <child nodeId="node-0xa4b7630" />
+      <child nodeId="node-0xa5a7e10" />
     </children>
+  </item>
+  <item nodeId="node-0xa5a7e10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Not every direction holds something of value. Go in another direction.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0xd2fa2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd2fa2e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bank
+The safest place in the town. Where else would you keep your money.
+
+You can see Banker here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5b2860" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5b2860">
+    <command xml:space="preserve">talk to banker</command>
+    <result xml:space="preserve">Banker doesn&apos;t reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
   </item>
   <item nodeId="node-0xa4b7630">
     <command xml:space="preserve">e</command>
