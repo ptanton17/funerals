@@ -65,7 +65,7 @@ Instead of going nowhere, say "Not every direction holds something of value. Go 
 
 
 [Combining puzzle: Taken from Tonic by Brianna hartner.]
-Coffin is a thing. coffin is in shop.
+Coffin is a thing. coffin is in notwhere.
 corpse is a thing. corpse is in hospital.
 clothes is a thing. clothes is in notwhere.
 
