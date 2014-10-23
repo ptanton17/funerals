@@ -3,10 +3,10 @@
 Funeral House is a room."This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.".
 1st floor of Hospital is a room. "What is the waiting room should be called the emergancy room. It is usually bustling with people but today it is earily quiet.".
 Graveyard is a room."It's a graveyard, what do you expect? A haunted house...".
-Bank is a room. "The safest placein the town. Where else would you keep your money.".
+Bank is a room. "The safest place in the town. Where else would you keep your money.".
 clothing emporium is a room."Some very nice clothes are made here.".
-Workshop is a room. "I think that a coffin could be made here farily easy.".
-Lumber yard is a room. "What else could it be."
+Workshop is a room. "I think that a coffin could be made here farily easy. There is a circular saw in the room.".
+Lumber yard is a room. "What else could it be. There is a hand saw in the room."
 Main road is a room."a mostly abandoned road with one parked car on the left side of the road.".
 2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing.".
 Notwhere is a room.
@@ -54,9 +54,9 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 
 [going nowhere code from Day for Spelling - Mr. Kiang from bbrown17]
 [this alerts player that they're going the wrong way]
-Instead of going nowhere, say "Not every direction holds something of value. Go in another direction."
+Instead of going nowhere, say "Not every direction holds something of value. Go in another direction.".
 [end going nowhere code from Day for Spelling - Mr. Kiang from bbrown17]
-
+if player enters bank for the first time: say ""
 
 
 
