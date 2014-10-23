@@ -1,14 +1,14 @@
 "A funeral without a body" by Phillip Tanton
-"A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent ir yet and the funeral is tomarrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body.".
-Funeral House is a room."This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty carpet on the bottom.".
+"A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomarow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin.".
+Funeral House is a room."This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.".
 1st floor of Hospital is a room. "What is the waiting room should be called the emergancy room. It is usually bustling with people but today it is earily quiet.".
-Graveyard is a room."It's a graveyard, what do you expect. A haunted house".
-Bank is a room. 
-clothing emporium is a room.
-Workshop is a room.
-Lumber yard is a room.
-Main road is a room.
-2nd Floor of Hospital is a room.
+Graveyard is a room."It's a graveyard, what do you expect? A haunted house...".
+Bank is a room. "The safest placein the town. Where else would you keep your money.".
+clothing emporium is a room."Some very nice clothes are made here.".
+Workshop is a room. "I think that a coffin could be made here farily easy.".
+Lumber yard is a room. "What else could it be."
+Main road is a room."a mostly abandoned road with one parked car on the left side of the road.".
+2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing.".
 Notwhere is a room.
 
 2nd Floor of hospital is above 1st floor of hospital.
@@ -30,9 +30,6 @@ circular saw is in shop.
 [From great glorious leader Jonathon Nakagawa "the Great"]
 
 
-the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
-The table is in the funeral house.
-[Understand "sit at [something]" as sit on.]
 
 Banker is a man.
 Banker is in bank.
@@ -133,20 +130,22 @@ To say exit list:
 [end Code to display a players location in the game and possible exits in the header.]
 
 [i will put in items!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]
-Bed is a supporter.
-table is a supporter.
-counter is a thing.
-Tailor is a woman.
-pedestal is a supporter.
-flower is a thing.
-chair is a thing.
-moon is a thing.
-carpet is a thing.
-headstone is a thing.
-wrench is a thing.
-bandaids is a thing.
-saw is a thing.
+Bed is a supporter. Bed is in 2nd floor of hospital. The description of bed is "A white sanitary bed used in hospitals.".
+counter is a thing. counter is in bank. it is undescribed. "a pollished granite counter. useful for sliding papers across or dropping bouncy balls. Guess what this banker does?".
+Tailor is a woman. Tailor is in clothing emporium. it is undescribed. "an old lady. Probably a bit stiff but she still produces the finest quality handmade tuxidos in town. ".
+pedestal is a supporter. Pedestal is in clothing emporium. it is undescribed."A small pedestal used for standing on for measuring.".
+flower is a thing. flower is in bank. it is undescribed. "A little flower in a flower pot. ".
+chair is a thing. chair is in bank. it is undescribed. "This is where you sell your soul to the devil... or your local banker." .
+moon is a thing. it is undescribed. "A lumenesciant moon.".
+carpet is a thing. carpet is in  first floor of hospital. it is undescribed. "A carpet made for heavy foot traffic, biological substances (blood and vomit), and strong chemicals.".
+headstone is a thing. headstone is in graveyard. it is undescribed. "Jonathan Nakagawa, 6/7/99-7/6/2014".
+wrench is a thing. wrench is in workshop. it is undescribed. "I don't know what you are going to do with a wrench but take it if you want.".
+drawer is a container. drawer is in first floor of hospital. it is undescribed. "A drawere used to hold basic medical supplies.".
+bandaids is a thing. bandaids is in drawer. it is undescribed. "Some bandaids.".
+hand saw is a thing. hand saw is in lumberyard. it is undescribed. "A simple handsaw for cutting up wood.".
+car is a container. it is locked and lockable. it is closed and openable. It is in main road. "A parked car.".
 
-
-
+the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
+The table is in the funeral house. the table is undescribed.
+[Understand "sit at [something]" as sit on.]
 
