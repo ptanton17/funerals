@@ -5,7 +5,7 @@
     <key>0</key><dict>
         <key>Filename</key><string>/Users/ptanton17/Documents/Milton Manor.materials/Release/funerals/A funeral without a body.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>"A funeral without a body" by Phillip Tanton "A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomarow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin."</string>
+        <key>Title</key><string>"A funeral without a body" by Phillip Tanton "A funeral was scheduled in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomorrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin. When you get these three things, COMBINE one with another to make a full casket.  "</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>

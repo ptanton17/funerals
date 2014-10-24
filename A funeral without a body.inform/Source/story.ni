@@ -1,14 +1,14 @@
 "A funeral without a body" by Phillip Tanton
-"A funeral was schedualed in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomarow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin.".
-Funeral House is a room."This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.".
-1st floor of Hospital is a room. "What is the waiting room should be called the emergancy room. It is usually bustling with people but today it is earily quiet.".
-Graveyard is a room."It's a graveyard, what do you expect? A haunted house...".
-Bank is a room. "The safest place in the town. Where else would you keep your money.".
-clothing emporium is a room."Some very nice clothes are made here.".
-shop is a room. "I think that a coffin could be made here farily easy. There is a circular saw in the room.".
-Lumber yard is a room. "What else could it be. There is a hand saw in the room."
-Main road is a room."a mostly abandoned road with one parked car on the left side of the road.".
-2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing.".
+"A funeral was scheduled in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomorrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin. When you get these three things, COMBINE one with another to make a full casket.  ".
+Funeral House is a room. "This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.".
+1st floor of Hospital is a room. "What is the waiting room should be called the emergency room. It is usually bustling with people but today it is eerily quiet.".
+Graveyard is a room. "It's a graveyard, what do you expect? A haunted house... There seems to be a fresh grave here mabye we should check it out.".
+Bank is a room. "The safest place in the town. Where else would you keep your money. The banker is here sitting next to a counter.".
+clothing emporium is a room. "Some very nice clothes are made here. A tailor and a pedestal is here.".
+shop is a room. "I think that a coffin could be made here fairly easy. There is a circular saw in the room.".
+Lumber yard is a room. "What else could it be. There is a hand saw in the room. There is also some wood."
+Main road is a room. "a mostly abandoned road with one parked car on the left side of the road.".
+2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing. there is a body in here.".
 Notwhere is a room.
 
 2nd Floor of hospital is above 1st floor of hospital.
@@ -25,17 +25,21 @@ cut plank is a thing. cut plank is in notwhere.
 circular saw is a container.
 circular saw is in shop. 
 [instead of putting plank inside circular saw:
-	say "The saw groans and mubles as the plank goes through it" 
+	say "The saw groans and mumbles as the plank goes through it" 
 	give cut plank to player]
 [From great glorious leader Jonathon Nakagawa "the Great"]
 
 
 wad of cash is a thing.
 Banker is a man.
-Banker is in bank.
+Banker is in bank. 
+instead of talking to banker:
+	If player has ID card:
+		say "Ah yes Mr. Nakagawa here is your money.";
+		move wad of cash to player;
+	Otherwise:
+		say "Your bank account seems to be empty.".
 The block giving rule is not listed in the check giving it to rules.
-Instead of talking to banker for the first time: say "Ah, yes here is your money"; move wad of cash to player;
-
 [from documentation.]
 
 
@@ -66,7 +70,7 @@ Instead of going nowhere, say "Not every direction holds something of value. Go 
 
 [Combining puzzle: Taken from Tonic by Brianna hartner.]
 Coffin is a thing. coffin is in notwhere.
-corpse is a thing. corpse is in hospital.
+corpse is a thing. corpse is in 2nd floor of hospital.
 clothes is a thing. clothes is in notwhere.
 
 [The combining action]
@@ -134,8 +138,8 @@ To say exit list:
 
 [i will put in items!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]
 Bed is a supporter. Bed is in 2nd floor of hospital. The description of bed is "A white sanitary bed used in hospitals.".
-counter is a thing. counter is in bank. it is undescribed. "a pollished granite counter. useful for sliding papers across or dropping bouncy balls. Guess what this banker does?".
-Tailor is a woman. Tailor is in clothing emporium. it is undescribed. "an old lady. Probably a bit stiff in the fingers but she still produces the finest quality handmade tuxidos in town. ".
+counter is a thing. counter is in bank. it is undescribed. "a polished granite counter. useful for sliding papers across or dropping bouncy balls. Guess what this banker does?".
+Tailor is a woman. Tailor is in clothing emporium. it is undescribed. "an old lady. Probably a bit stiff in the fingers but she still produces the finest quality handmade tuxedos in town. ".
 instead of talking to tailor:
 	If player has wad of cash:
 		move clothes to player;
@@ -146,9 +150,11 @@ instead of talking to tailor:
 pedestal is a supporter. Pedestal is in clothing emporium. it is undescribed."A small pedestal used for standing on for measuring.".
 flower is a thing. flower is in bank. it is undescribed. "A little flower in a flower pot. ".
 chair is a thing. chair is in bank. it is undescribed. "This is where you sell your soul to the devil... or your local banker." .
-moon is a thing. it is undescribed. "A lumenesciant moon.".
+moon is a thing. it is undescribed. "A luminescent moon.".
 carpet is a thing. carpet is in  first floor of hospital. it is undescribed. "A carpet made for heavy foot traffic, biological substances (blood and vomit), and strong chemicals.".
-headstone is a thing. headstone is in graveyard. it is undescribed. "Jonathan Nakagawa, 6/7/99-7/6/2014".
+headstone is a container. headstone is in graveyard. it is undescribed. "Jonathan Nakagawa, 6/7/99-7/6/2014".
+understand "grave" as headstone.
+understand "id card" as ID.
 wrench is a thing. wrench is in workshop. it is undescribed. "I don't know what you are going to do with a wrench but take it if you want.".
 drawer is a container. drawer is in first floor of hospital. it is undescribed. "A drawer used to hold basic medical supplies.".
 bandaids is a thing. bandaids is in drawer. it is undescribed. "Some bandaids.".
@@ -156,11 +162,12 @@ hand saw is a thing. hand saw is in lumberyard. it is undescribed. "A simple han
 car is a container. it is locked and lockable. it is closed and openable. It is in main road. "A parked car.".
 
 the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
+The description of corpse is "it seems to be Jenna shigeta, a nice old lady that lived in the town.".
 The table is in the funeral house. the table is undescribed.
 [Understand "sit at [something]" as sit on.]
-
-Worker is a man. Worker is in shop. "A strong little man hwo is a fine woodworker.".
-instead of talking to worker for the first time: say " Do you want a coffin because i can build one.".
+ID card is a thing. The description of the ID card is "Jonathan Nakagawa, 6/7/99... It seems to be the dead person.". ID card is in headstone.
+Worker is a man. Worker is in shop. "A strong little man who is a fine woodworker.".
+instead of talking to worker for the first time: say " Do you want a coffin because i can build one, but I need wood and some sort of payment.".
 rough plank is a thing. It is in the lumber yard.
 instead of talking to worker:
 	If player has wad of cash:
@@ -170,3 +177,8 @@ instead of talking to worker:
 			move rough plank to notwhere;
 		Otherwise:
 			say "I can't make coffins without wood. Unless you want an invisible coffin.".
+
+Every turn rule:
+	if player has full casket:
+		End the story finally saying "You win".
+
