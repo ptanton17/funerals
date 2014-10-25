@@ -162,7 +162,7 @@ hand saw is a thing. hand saw is in lumberyard. it is undescribed. "A simple han
 car is a container. it is locked and lockable. it is closed and openable. It is in main road. "A parked car.".
 
 the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
-The description of corpse is "it seems to be Jenna shigeta, a nice old lady that lived in the town.".
+The description of corpse is "it seems to be Jenna Shigeta, a nice old lady that lived in the town.".
 The table is in the funeral house. the table is undescribed.
 [Understand "sit at [something]" as sit on.]
 ID card is a thing. The description of the ID card is "Jonathan Nakagawa, 6/7/99... It seems to be the dead person.". ID card is in headstone.
