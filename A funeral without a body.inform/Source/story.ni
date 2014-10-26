@@ -182,3 +182,21 @@ Every turn rule:
 	if player has full casket:
 		End the story finally saying "You win".
 
+[shortest route
+S
+X gravestone
+Take id
+N 
+N
+E
+Talk to banker
+e
+talk to tailor
+w
+n
+w
+take plank
+e
+talk to worker
+combine corpse with clothes.
+combine clothed corspe with coffin ]
