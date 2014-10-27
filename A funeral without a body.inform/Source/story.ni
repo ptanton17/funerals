@@ -2,7 +2,7 @@
 "A funeral was scheduled in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomorrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin. When you get these three things, COMBINE one with another to make a full casket.  ".
 Funeral House is a room. "This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.".
 1st floor of Hospital is a room. "What is the waiting room should be called the emergency room. It is usually bustling with people but today it is eerily quiet.".
-Graveyard is a room. "It's a graveyard, what do you expect? A haunted house... There seems to be a fresh grave here mabye we should check it out.".
+Graveyard is a room. "It's a graveyard, what do you expect? A haunted house... There seems to be a fresh grave here maybe we should check it out.".
 Bank is a room. "The safest place in the town. Where else would you keep your money. The banker is here sitting next to a counter.".
 clothing emporium is a room. "Some very nice clothes are made here. A tailor and a pedestal is here.".
 shop is a room. "I think that a coffin could be made here fairly easy. There is a circular saw in the room.".
