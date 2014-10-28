@@ -1,14 +1,14 @@
 "A funeral without a body" by Phillip Tanton
-"A funeral was scheduled in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomorrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin. When you get these three things, COMBINE one with another to make a full casket.  ".
-Funeral House is a room. "This is where all the magic happens (so to speak). In reality it is a large room with oak walls and an old dusty in the front. If you bring the full casket together put it here to let the funeral continue.".
-1st floor of Hospital is a room. "What is the waiting room should be called the emergency room. It is usually bustling with people but today it is eerily quiet.".
+"A funeral was scheduled in your funeral house. UPS was going to bring in everything: the corpse, box and fine clothes. But they haven't sent it yet and the funeral is tomorrow. So, as the director of the house you must bring everything together and hope they don't ask to see the body. In this case everything is a body, some nice clothes and a coffin. When you get these three things, COMBINE one WITH another to make a full casket.  ".
+Funeral House is a room. "This is where all the magic happens (so to speak). In reality it is a large room with oak walls. If you bring the full casket together put it here to let the funeral continue.".
+1st floor of Hospital is a room. "What is the waiting room should be called the emergency room. It is usually bustling with people but today it is eerily quiet. There is a carpet on the ground.".
 Graveyard is a room. "It's a graveyard, what do you expect? A haunted house... There seems to be a fresh grave here maybe we should check it out.".
 Bank is a room. "The safest place in the town. Where else would you keep your money. The banker is here sitting next to a counter.".
 clothing emporium is a room. "Some very nice clothes are made here. A tailor and a pedestal is here.".
 shop is a room. "I think that a coffin could be made here fairly easy. There is a circular saw in the room.".
 Lumber yard is a room. "What else could it be. There is a hand saw in the room. There is also some wood."
 Main road is a room. "a mostly abandoned road with one parked car on the left side of the road.".
-2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing. there is a body in here.".
+2nd Floor of Hospital is a room. "This is where the worst patients are kept. there seems to be a couple not breathing. there is a body in here. There is also a drawer.".
 Notwhere is a room.
 
 2nd Floor of hospital is above 1st floor of hospital.
@@ -156,19 +156,20 @@ headstone is a container. headstone is in graveyard. it is undescribed. "Jonatha
 understand "grave" as headstone.
 understand "id card" as ID.
 wrench is a thing. wrench is in workshop. it is undescribed. "I don't know what you are going to do with a wrench but take it if you want.".
-drawer is a container. drawer is in first floor of hospital. it is undescribed. "A drawer used to hold basic medical supplies.".
+drawer is a container. drawer is in second floor of hospital. it is undescribed. "A drawer used to hold basic medical supplies.".
 bandaids is a thing. bandaids is in drawer. it is undescribed. "Some bandaids.".
 hand saw is a thing. hand saw is in lumberyard. it is undescribed. "A simple handsaw for cutting up wood.".
 car is a container. it is locked and lockable. it is closed and openable. It is in main road. "A parked car.".
 
-the Table is a thing.  The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
-The description of corpse is "it seems to be Jenna Shigeta, a nice old lady that lived in the town.".
+the Table is a thing. The table is a supporter. The description of table is "A large walnut table. Beautifully crafted. It is just splendid. But for some reason it is missing a little something. I can't quite put my finger on it.... ah, yes, there's no casket.". 
+The description of corpse is "it seems to be Jenna Shigeta, a nice old lady that lived in the town. I don't think anyone will mind if she is put to one last use.".
 The table is in the funeral house. the table is undescribed.
 [Understand "sit at [something]" as sit on.]
 ID card is a thing. The description of the ID card is "Jonathan Nakagawa, 6/7/99... It seems to be the dead person.". ID card is in headstone.
-Worker is a man. Worker is in shop. "A strong little man who is a fine woodworker.".
-instead of talking to worker for the first time: say " Do you want a coffin because i can build one, but I need wood and some sort of payment.".
-rough plank is a thing. It is in the lumber yard.
+Worker is a man. Worker is in shop. "A strong little man who is a fine woodworker. HIs name is worker.".
+instead of talking to worker for the first time: say " Do you want a coffin because I can build one, but I need wood and some sort of payment.".
+rough plank is a thing. It is in the lumber yard. The description of rough plank is "What more do you want to know.".
+oak walls is a thing. "It is walls. made of oak.". oak walls is in funeral house. oak walls is undescribed.
 instead of talking to worker:
 	If player has wad of cash:
 		if player has rough plank:
