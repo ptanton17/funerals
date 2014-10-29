@@ -156,7 +156,7 @@ understand "grave" as headstone.
 understand "id card" as ID.
 wrench is a thing. wrench is in workshop. it is undescribed. "I don't know what you are going to do with a wrench but take it if you want.".
 drawer is a container. drawer is in second floor of hospital. it is undescribed. "A drawer used to hold basic medical supplies.".
-bandaids is a thing. bandaids is in drawer. it is undescribed. "Some bandaids.".
+band aids is a thing. band aids is in drawer. it is undescribed. "Some band aids.".
 hand saw is a thing. hand saw is in lumberyard. it is undescribed. "A simple handsaw for cutting up wood.".
 car is a container. it is locked and lockable. it is closed and openable. It is in main road. "A parked car.".
 
@@ -200,4 +200,4 @@ take plank
 e
 talk to worker
 combine corpse with clothes.
-combine clothed corspe with coffin ]
+combine clothed corpse with coffin ]

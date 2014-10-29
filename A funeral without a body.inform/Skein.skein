@@ -14,11 +14,9 @@ Release 1 / Serial number 141028 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 Funeral House
 This is where all the magic happens (so to speak). In reality it is a large room with oak walls. If you bring the full casket together put it here to let the funeral continue.
 
-It is walls. made of oak.
-
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="450">NO</temporary>
     <children>
       <child nodeId="node-0x9491fa0" />
