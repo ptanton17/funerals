@@ -136,7 +136,6 @@ To say exit list:
 		if place is a room, say "[way]".
 [end Code to display a players location in the game and possible exits in the header.]
 
-[i will put in items!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]
 Bed is a supporter. Bed is in 2nd floor of hospital. The description of bed is "A white sanitary bed used in hospitals.".
 counter is a thing. counter is in bank. it is undescribed. "a polished granite counter. useful for sliding papers across or dropping bouncy balls. Guess what this banker does?".
 Tailor is a woman. Tailor is in clothing emporium. it is undescribed. "an old lady. Probably a bit stiff in the fingers but she still produces the finest quality handmade tuxedos in town. ".
@@ -182,6 +181,7 @@ instead of talking to worker:
 Every turn rule:
 	if player has full casket:
 		End the story finally saying "You win".
+release along with cover art ("A picture of a coffin.")
 
 [shortest route
 S
