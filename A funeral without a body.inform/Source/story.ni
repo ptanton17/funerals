@@ -149,7 +149,7 @@ instead of talking to tailor:
 pedestal is a supporter. Pedestal is in clothing emporium. it is undescribed."A small pedestal used for standing on for measuring.".
 flower is a thing. flower is in bank. it is undescribed. "A little flower in a flower pot. ".
 chair is a thing. chair is in bank. it is undescribed. "This is where you sell your soul to the devil... or your local banker." .
-moon is a thing. it is undescribed. "A luminescent moon.".
+moon is a thing. it is undescribed. "A luminescent moon.". moon is in graveyard.
 carpet is a thing. carpet is in  first floor of hospital. it is undescribed. "A carpet made for heavy foot traffic, biological substances (blood and vomit), and strong chemicals.".
 headstone is a container. headstone is in graveyard. it is undescribed. "Jonathan Nakagawa, 6/7/99-7/6/2014".
 understand "grave" as headstone.
